@@ -12,7 +12,9 @@ const Homes = () => {
                     <div>
                 <Card name = {v.name} 
                     Img ={v.imageURL}
-                 price = {v.price} />
+                 price = {v.price}
+                 id = {v.productId}
+                 />
                  </div>
                 )
             })
