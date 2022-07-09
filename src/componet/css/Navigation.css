@@ -1,0 +1,33 @@
+.nav__container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+    color: aliceblue ;
+    box-sizing: border-box;
+    }
+
+    .rigth{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: aliceblue ;      
+        font-size: 20px;
+    }
+    .rigth ul{
+        display: flex;
+    }
+    .rigth ul li{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+
+.left{
+    display: flex;
+}
+.left ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
