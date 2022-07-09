@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 import './pcss/CardDet.css'
 const CardDetailsPage = () => {
     const location = useLocation();
-    const {name, Img, price} = location.state;
+    const {name, Img, price,discription} = location.state;
     // console.log(title)
       return (
         <div className='single_top'>
@@ -14,6 +14,7 @@ const CardDetailsPage = () => {
             </div>
             <div className='card_details_right'>
             <h3>{name}</h3>
+            <p>{discription}</p>
             <p>{price}</p>
             <div>
     

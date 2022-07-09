@@ -5,11 +5,9 @@ const Order = () => {
     {
         fName : '',
         lname : '',
-        Age : '',
         mobileNo:'',
-        course : '',
+        address : '',
         email: '',
-        password : ''
 
     }
 ])
@@ -24,7 +22,7 @@ const[data,setData] = useState([])
         const newData = {...Userdata, id : new Date().getTime().toString()}
         setData([newData])
         setUserData( {
-            fName : '',lname : '',Age : '',mobileNo:'',course : '',email: '',password : ''
+            fName : '',lname : '',mobileNo:'',address : '',email: ''
         })
     }
     console.log(data)
@@ -47,7 +45,7 @@ const[data,setData] = useState([])
                 <input type="text" name="mobileNo" id="" value={Userdata.mobileNo} onChange ={inputChange} placeholder = "Phone" />
             </section><br />
             <section>
-                <input type="text" name="course" id="" value={Userdata.course} onChange ={inputChange} placeholder = 'Address' />
+                <input type="text" name="address" id="" value={Userdata.address} onChange ={inputChange} placeholder = 'Address' />
             </section><br />
             <section>
                 <input type="text" name="email" id="" value={Userdata.email} onChange ={inputChange} placeholder = "Email"/>

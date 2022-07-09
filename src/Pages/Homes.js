@@ -14,6 +14,7 @@ const Homes = () => {
                     Img ={v.imageURL}
                  price = {v.price}
                  id = {v.productId}
+                 discription = {v.discription}
                  />
                  </div>
                 )

@@ -1,7 +1,7 @@
 .single__page{
     display: flex;
     justify-content: space-between;
-    width:90vw ;
+    width:70vw ;
     margin: auto;
 }
 .card_details_left{
@@ -10,12 +10,13 @@
 .card_details_left img{
     width: 300px;
 }
-.single__page_right{
+.card_details_right{
     width:400px ;
+  
     margin-left:50px ;
     text-align: center;
 }
 
 .single_top{
-    margin-top: 200px;
+    margin-top: 50px;
 }
